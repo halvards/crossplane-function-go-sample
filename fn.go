@@ -7,9 +7,6 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	nopapis "github.com/crossplane-contrib/provider-nop/apis"
-	nopv1alpha1 "github.com/crossplane-contrib/provider-nop/apis/v1alpha1"
-
 	"github.com/crossplane/function-sdk-go/errors"
 	"github.com/crossplane/function-sdk-go/logging"
 	fnv1 "github.com/crossplane/function-sdk-go/proto/v1"
@@ -17,6 +14,9 @@ import (
 	"github.com/crossplane/function-sdk-go/resource"
 	"github.com/crossplane/function-sdk-go/resource/composed"
 	"github.com/crossplane/function-sdk-go/response"
+
+	nopapis "github.com/crossplane-contrib/provider-nop/apis"
+	nopv1alpha1 "github.com/crossplane-contrib/provider-nop/apis/v1alpha1"
 )
 
 // Function returns whatever response you ask it to.

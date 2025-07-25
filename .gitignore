@@ -21,5 +21,9 @@
 go.work
 go.work.sum
 
-# Binary
+# Binaries
 crossplane-function-go-sample
+
+# Packages
+function-amd64.xpkg
+function-arm64.xpkg
