@@ -1,4 +1,4 @@
-module github.com/crossplane/function-template-go
+module github.com/halvards/crossplane-function-go-sample
 
 go 1.23
 
