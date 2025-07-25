@@ -9,7 +9,7 @@
   "packageRules": [
     {
       "matchManagers": ["crossplane"],
-      "matchFileNames": ["example/**"],
+      "matchFileNames": ["examples/**"],
       "groupName": "examples"
     }
   ],
